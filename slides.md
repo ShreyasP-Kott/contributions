@@ -59,7 +59,7 @@ transition: slide-up
 - REVV Recommendation card design
 - API inetgration to get all Auction Trend Metrics Data
 - Addition of Auction Metrics to recommendation card
-- Brought in buttons "View More", "View Recommended" & "View Nearby"
+- Brought in buttons "View More", "Compare Recommended" & "Compare Nearby"
 - Designed the modal appearing on clicking the above buttons
 - Showing the trend icons based on the values
 <br/>
@@ -82,7 +82,7 @@ side: l
 color: purple-light
 titlewidth: is-4
 align: cm-lm
-transition: slide-up
+transition: slide-left
 ---
 
 :: title ::
@@ -106,6 +106,138 @@ transition: slide-up
 
 #### Ability for Consignor to assign a stock when the stock is in "Created" state
 
+
+<div class="abs-tr m-3 w-50">
+  <img src="./assets/revv.svg">
+</div>
+
+---
+layout: side-title
+side: l
+color: green-light
+titlewidth: is-4
+align: cm-lm
+transition: slide-up
+---
+
+
+:: title ::
+
+# Stock Details Module
+
+:: content ::
+
+#### Vehicle Tracker
+- Changed it from vertical to horizontal view
+- Expanding & collapsing behavior
+- Minor tweaks in Mobile view
+- Make the bottom sheet appear according to the content
+<br/>
+
+<br/>
+
+#### Title Handling
+- API integration to send Title info
+- Display of Title info in the Overview section
+- Expanding & collapsing behavior
+- Ability to edit a Title info
+- Responsive behavior
+
+
+
+<div class="abs-tr m-3 w-50">
+  <img src="./assets/revv.svg">
+</div>
+
+
+
+---
+layout: side-title
+side: l
+color: green-light
+titlewidth: is-4
+align: cm-lm
+transition: slide-left
+---
+
+
+:: title ::
+
+# Stock Details Module
+
+:: content ::
+
+#### Title Tracker
+- Title details into Vehicle tracker
+- Updates in real time
+- Mobile view
+<br/>
+
+<br/>
+
+#### Right Panel changes
+- Configured the balckbook data table to fit into smaller size
+- Changed styles of Lights & Announcements
+- Changed styles of MMR Report
+<br/>
+
+<br/>
+
+#### Cancel Stock modal changes
+- Current stock state illustration
+- Conditional form fields to capture return address
+
+<div class="abs-tr m-3 w-50">
+  <img src="./assets/revv.svg">
+</div>
+
+
+---
+layout: side-title
+side: l
+color: amber-light
+titlewidth: is-4
+align: cm-lm
+transition: slide-left
+---
+
+
+:: title ::
+
+# Utility Features
+
+:: content ::
+<div class="leading-10">
+<span class="font-bold">Feature toggle variant</span> - Helps us control the features as per consignor or user 
+
+</div>
+<br/>
+
+<br/>
+<div class="leading-10">
+<span class="font-bold">Data upload application</span> - Helps us upload bulk stock data into REVV inventory 
+
+</div>
+<br/>
+
+<br/>
+<div class="leading-10">
+<span class="font-bold">Consignor getOffice API</span> - Helps the consignor to get the list of offices for stock creation 
+
+</div>
+<div class="abs-tr m-3 w-50">
+  <img src="./assets/revv.svg">
+</div>
+
+---
+theme: neversink
+layout: cover
+transition: slide-left
+---
+
+# Thank you!
+
+By **Shreyas Panicker**
 
 <div class="abs-tr m-3 w-50">
   <img src="./assets/revv.svg">
